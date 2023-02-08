@@ -1,0 +1,3 @@
+Required files are in the same directory as README.md. The command to concatenate the output of 'tree' to a file is:
+
+tree > task3.txt
