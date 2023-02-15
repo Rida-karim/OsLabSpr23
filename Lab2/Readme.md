@@ -73,8 +73,7 @@ cat "test0$i/01/test.txt" "test0$i/02/test.txt" >> txtfile.txt
 cd ..
 cd ..
 done
-
-![Task 3](https://user-images.githubusercontent.com/123716596/217622950-1bf33251-18d4-42c1-9600-0bfb7628ded6.PNG)
+![image](https://user-images.githubusercontent.com/123716596/218925136-298e559b-8a04-432a-95a0-f087a6649ef5.png)
 
 
 
