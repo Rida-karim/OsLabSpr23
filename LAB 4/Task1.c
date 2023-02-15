@@ -7,19 +7,19 @@
 int main(int argc, char const *argv[])
 {
    pid_t p, rp;
-   rp= getpaid();
+   rp= getpid();
    p= fork();
 
    while(p!=0)
    {
       if(p<0)
       {
-         printf("No child created: %d\n",errno);
+         printf("No child created: %d\n");
          wait(NULL);
          exit(1);
       }
 
-     printf("I am the PARRENT %d and have %d childre\n");
+     printf("I am the PARRENT %d and have %d children\n",p,rp);
      p = fork();
 
    }
