@@ -75,6 +75,81 @@ cd ..
 done
 ![image](https://user-images.githubusercontent.com/123716596/218925136-298e559b-8a04-432a-95a0-f087a6649ef5.png)
 
+![image](https://user-images.githubusercontent.com/123716596/218925798-de2850b9-bdc1-4818-8594-21ac27207399.png)
+![image](https://user-images.githubusercontent.com/123716596/218926545-1ccfde2c-da09-42f9-bec7-b8e61abca2c1.png)
+
+# TASK 4
+Write a shell script that will create a text file fileNames.txt and place all text files names
+in this file found in a folder and its subfolders. Yes you are right for this task the folder is
+the containing the 5 folders you created in task2.
+
+make task4.sh
+put command 
+
+find /home/virtual/lab02/task3 >> fileNames.txt
+
+# In filesNames.txt
+for i in {1..5}; do
+name="test0$i"
+mkdir $name
+cd $name
+mkdir 01
+cd 01
+touch test.txt
+date > test.txt
+cd ..
+mkdir 02
+cd 02
+touch test.txt
+date > test.txt
+cd ..
+cd ..
+done
+
+![image](https://user-images.githubusercontent.com/123716596/218931168-188dcaee-ae54-4834-8e51-ba0b92e42d7c.png)
+
+![image](https://user-images.githubusercontent.com/123716596/218931330-b5b735fa-5152-4bd4-bdfe-41f12a83c18f.png)
+
+# TASK 5
+
+What do we need these nested text files for? Create a shell script that deletes these text
+files buried in the subfolders.
+for i in {1..5}; do
+name="test0$i"
+mkdir $name
+cd $name
+mkdir 01
+cd 01
+touch test.txt
+date > test.txt
+cd ..
+mkdir 02
+cd 02
+touch test.txt
+date > test.txt
+cd ..
+cd ..
+done
+for i in {1..5}; do
+for j in {1..2}; do
+rm "test0$i/0$j"/test.txt
+done
+done
+
+![image](https://user-images.githubusercontent.com/123716596/218932043-a76f8370-4634-4ba2-bd1b-e95ca8632a50.png)
+
+![image](https://user-images.githubusercontent.com/123716596/218932683-4f292c38-dc4b-4257-b95e-05e1b07c186c.png)
+
+# TASK 6
+
+Write a shell script that takes integer input from command line and prints that many
+Fibonacci sequence numbers.
+
+![image](https://user-images.githubusercontent.com/123716596/218933471-2eab602f-da10-4ecb-9745-8e8bad7694bc.png)
+
+![image](https://user-images.githubusercontent.com/123716596/218933821-571b6231-aaa6-4bbf-9d09-588806e73d5c.png)
+
+
 
 
 
