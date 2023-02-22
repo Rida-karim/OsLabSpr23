@@ -2,6 +2,7 @@
 
 # TASK 1:
 
+# STEP 1: Install Apache
 1. Before installing the first LAMP component, ensure the package list on the system
 is up to date. In the terminal, type:
 
@@ -36,6 +37,25 @@ COMMAND: sudo ufw app info "Apache Full"
 address bar of an internet browser and press ENTER.
 The test Apache web server page should display as below.
 
+http://127.0.0.1/
+
+![image](https://user-images.githubusercontent.com/123716596/220517081-bd95d38c-8b40-468b-976e-e17ae12aedff.png)
+
+# STEP 2: Install MySQL and Create a Database
+Install MySQL by typing the following command:
+COMMAND: sudo apt install mysql-server -y
+![image](https://user-images.githubusercontent.com/123716596/220517765-e762e517-6744-4a8d-9bce-1434353f20c9.png)
+
+# STEP 3: Install PHP
+
+Although other programming languages, such as Python and Pearl, also work well
+within LAMP, PHP is usually the final layer of the stack because it integrates well
+with MySQL. As a dynamically typed language, PHP embeds into HTML, improving
+the speed and reducing the complexity of web applications.
+Install PHP by following the steps below.
+1. Obtain the necessary PHP packages by typing:
+
+COMMAND: sudo apt install php libapache2-mod-php php-mysql -y
 
 
 
