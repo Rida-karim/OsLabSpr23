@@ -150,6 +150,122 @@ COMMAND: sudo DEBIAN_PRIORITY=low apt install postfix
 CONTINUE ON INSTALLING
 ![image](https://user-images.githubusercontent.com/123716596/220528090-e780bd98-9440-4651-b9e0-b3c727874a11.png)
 
+Note: If you need to ever return to change these settings, you can do so by typing:
+COMMAND : sudo dpkg-reconfigure postfix
+When you are prompted to restart services, accept the defaults and choose OK.
+When the installation process finishes, you’re ready to make a few updates to your
+Postfix configuration.
+
+# Step 7 — Changing the Postfix Configuration
+Now you can adjust some settings that the package installation process didn’t
+prompt you for. Many of Postfix’s configuration settings are defined in
+the /etc/postfix/main.cf file. Rather than editing this file directly, you can use
+Postfix’s postconf command to query or set configuration settings.
+To begin, set the location for your non-root Ubuntu user’s mailbox. In this guide, we’ll
+use the Maildir format, which separates messages into individual files that are then
+moved between directories based on user action. The alternative option that isn’t
+covered in this guide is the mbox format, which stores all messages within a single
+file.
+Set the home_mailbox variable to Maildir/. Later, you will create a directory
+structure under that name within your user’s home directory.
+Configure home_mailbox by typing:
+COMMAND : sudo postconf -e 'home_mailbox= Maildir/'
+![image](https://user-images.githubusercontent.com/123716596/220538092-bb87b794-5172-4764-8e82-275234217366.png)
+
+Next, set the location of the virtual_alias_maps table, which maps arbitrary email
+accounts to Linux system accounts. Run the following command, which maps the
+table location to a hash database file named /etc/postfix/virtual:
+
+COMMAND: sudo postconf -e 'virtual_alias_maps= hash:/etc/postfix/virtual'
+
+![image](https://user-images.githubusercontent.com/123716596/220538266-1c19f61c-717a-4c25-910c-72ae95e3b673.png)
+Now that you’ve defined the location of the virtual maps file in your main.cf file, you
+can create the file itself and begin mapping email accounts to user accounts on your
+Linux system. Create the file with your preferred text editor; in this example, we’ll
+use nano:
+COMAND: sudo nano /etc/postfix/virtual
+EDIT GNU nano 6.2:
+contact@example.com sammy
+admin@example.com sammy
+![image](https://user-images.githubusercontent.com/123716596/220538671-6d89a83f-8443-44af-b46c-39f43be79993.png)
+
+After you’ve mapped all of the addresses to the appropriate server accounts, save
+and close the file. If you used nano, do this by pressing CTRL + X, Y, then ENTER.
+Apply the mapping by typing:
+COMMAND: sudo postmap /etc/postfix/virtual
+Restart the Postfix process to be sure that all of your changes have been applied:
+COMMAND: sudo systemctl restart postfix
+Assuming you followed the prerequisite Initial Server Setup guide, you will have
+configured a firewall with UFW. This firewall will block external connections to
+services on your server by default unless those connections are explicitly allowed, so
+you’ll have to add a firewall rule to allow an exception for Postfix.
+You can allow connections to the service by typing:
+COMMAND: sudo ufw allow Postfix
+
+With that, Postfix is configured and ready to accept external connections. However,
+you aren’t yet ready to test it out with a mail client. Before you can install a client and
+use it to interact with the mail being delivered to your server, you’ll need to make a
+few changes to your Ubuntu server’s setup.
+![image](https://user-images.githubusercontent.com/123716596/220538993-7fbbcad5-f046-4534-ba08-cdb548b029a9.png)
+
+# STEP 8:  Installing the Mail Client and Initializing the Maildir Structure
+In order to interact with the mail being delivered, this step will walk you through the
+process of installing the s-nail package. This is a feature-rich variant of the
+BSD xmail client which can handle the Maildir format correctly.
+Before installing the client, though, it would be prudent to make sure
+your MAIL environment variable is set correctly. s-nail will look for this variable to
+figure out where to find mail for your user.
+To ensure that the MAIL variable is set regardless of how you access your account
+— whether through ssh, su, su -, or sudo, for example — you’ll need to set the
+variable in the /etc/bash.bashrc file and add it to a file within /etc/profile.d to
+make sure it is set for all users by default.
+To add the variable to these files, type:
+
+COMMAND : echo 'export MAIL=~/Maildir' | sudo tee -a /etc/bash.bashrc | sudo tee -a /etc/profile.d/mail.sh
+To read the variable into your current session, source
+the /etc/profile.d/mail.sh file:
+COMMAND: source /etc/profile.d/mail.sh
+With that complete, install the s-nail email client with APT:
+COMMAND : sudo apt install s-nail
+![image](https://user-images.githubusercontent.com/123716596/220539378-83b10e89-5378-496c-955f-e07c60ed4509.png)
+
+Before running the client, there are a few settings you need to adjust. Open
+the /etc/s-nail.rc file in your editor:
+COMMAND: sudo nano /etc/s-nail.rc
+![image](https://user-images.githubusercontent.com/123716596/220539911-acc94157-e2ec-458c-84b7-057752d15026.png)
+DOWN CURSOR EDIT THIS AT BOTTTOM:
+. . .
+set emptystart
+set folder=Maildir
+set record=+sent
+
+![image](https://user-images.githubusercontent.com/123716596/220540095-90bdc968-5f9e-4159-a800-724e09d39a96.png)
+
+Here’s what these lines do:
+• set emptystart: allows the client to open even with an empty inbox
+• set folder=Maildir: sets the Maildir directory to the
+internal folder variable
+• set record=+sent creates a sent mbox file for storing sent mail within
+whichever directory is set as the folder variable, in this case Maildir
+Save and close the file when you are finished. You’re now ready to initialize your
+system’s Maildir structure.
+A quick way to create the Maildir structure within your home directory is to send
+yourself an email with the s-nail command. Because the sent file will only be
+available once the Maildir is created, you should disable writing to it for this initial
+email. Do this by passing the -Snorecord option.
+Send the email by piping a string to the s-nail command. Adjust the command to
+mark your Linux user as the recipient:
+COMMAND: echo 'init' | s-nail -s 'init' -Snorecord sammy
+![image](https://user-images.githubusercontent.com/123716596/220540462-fab9a867-d3f8-48d4-b2d8-b17307b97b09.png)
+NOTE: The S- in snorecord is capital
+You can can check to make sure the directory was created by looking for
+your ~/Maildir directory:
+COMMAND: ls -R ~/Maildir
+![image](https://user-images.githubusercontent.com/123716596/220540728-8b1bb2c4-4dac-4648-b9ab-232c387c778e.png)
+Step 4 — Testing the Client
+To open the client, run the s-nail command:
+COMMAND: s-nail
+
 
 
 
