@@ -266,7 +266,11 @@ Step 4 — Testing the Client
 To open the client, run the s-nail command:
 COMMAND: s-nail
 
+![image](https://user-images.githubusercontent.com/123716596/220541087-87c6a8ff-0a3d-4114-b2d9-2a1a87f823ae.png)
+Press ENTER to display the message AND PRESS DOWN CURSOR:
 
+![image](https://user-images.githubusercontent.com/123716596/220541242-7865ba6b-dd23-404a-8a66-50c7bc63cda2.png)
+You can get back to the message list by typing h, and then ENTER:
 
 
 
