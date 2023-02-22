@@ -281,7 +281,52 @@ To get back to the terminal, type q and then ENTER:
 q
 ![image](https://user-images.githubusercontent.com/123716596/220542494-7d4c60c0-943c-4d42-ae9c-5f6640bf53f3.png)
 
+As a final test, check whether s-nail is able to correctly send email messages. To
+do this, you can pipe the contents of a text file into the s-nail process, like you did
+with the init message you sent in the previous step.
+Begin by writing a test message in a text editor:
+COMMAND : nano ~/test_message
+![image](https://user-images.githubusercontent.com/123716596/220542753-50681a3e-92ca-4af2-a8fd-d937419fd328.png)
+EDIT GNU nano 6.2:
+Hello,
 
+This is a test. Please confirm receipt!
+
+![image](https://user-images.githubusercontent.com/123716596/220542898-e5f6bf01-3bf5-45bc-8adb-cade478892a4.png)
+
+Save and close the file after writing your message.
+Then, use the cat command to pipe the message to the s-nail process. You can do
+so with the following example, which uses these options:
+• -s: This defines the subject line of the email message
+• -r: An optional change to the “From:” field of the email. By default, the Linux user
+you are logged in as will be used to populate this field. The -r option allows you to
+override this with a valid address, such as one of those you defined in
+the /etc/postfix/virtual file. To illustrate, the following command
+uses contact@example.com
+Also, be sure to change user@email.com to a valid email address which you have
+access to:
+
+COMMAND: cat ~/test_message | s-nail -s 'Test email subject line' -r contact@example.com user@email.com
+
+![image](https://user-images.githubusercontent.com/123716596/220543288-dddad2f6-78d8-42b8-a390-7df6313de6a5.png)
+
+NOTE: The above two commands are in a single line
+Then, navigate to the inbox for the email address to which you sent the message.
+You will see your message waiting there almost immediately.
+
+LAB#05: LINUX MULTIFUNCTION SERVER MANAGEMENT (LAMP STACK), POSTFIX AND MOZILLA
+THUNDERBIRD 17
+Note: If the message isn’t in your inbox, it may have been delivered to your Spam folder.
+You can view your sent messages within your s-nail client. Start the interactive
+client again:
+
+COMMAND : s-nail
+
+![image](https://user-images.githubusercontent.com/123716596/220543521-f8fcc886-5a0f-4036-b195-92b3c17cb0ab.png)
+From the email client, view your sent messages by typing:
+EDIT: file +sent
+You’ll see output like this:
+![image](https://user-images.githubusercontent.com/123716596/220543733-193a455a-f4b4-4a09-8df2-ff810996b471.png)
 
 
 
