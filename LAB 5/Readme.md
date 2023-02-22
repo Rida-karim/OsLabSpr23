@@ -119,6 +119,20 @@ phpinfo ();
 
 ![image](https://user-images.githubusercontent.com/123716596/220522850-17bcab2d-d3a1-41fb-b648-3b0776e4499d.png)
 
+3. Press CTRL + X to save and close the file. Press y and ENTER to confirm.
+4. Open an internet browser and type the following address:
+BROWSE: [server-ip-address]/info.php
+![image](https://user-images.githubusercontent.com/123716596/220525155-fca46947-9789-490a-b708-14d31a4e5bb5.png)
+
+Alternatively, type:
+
+BROWSE: localhost/info.php
+The output should display the details of the LAMP stack, as seen in the image below:
+![image](https://user-images.githubusercontent.com/123716596/220525309-85e1a38e-8bd5-4fc6-9312-a226a99fced2.png)
+
+
+
+
 
 
 
