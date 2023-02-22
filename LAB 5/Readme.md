@@ -84,9 +84,43 @@ COMMAND: apt-cache search php- | less
 
 ![image](https://user-images.githubusercontent.com/123716596/220520425-0d47721d-bb9d-4c72-9c25-2c2afaf66bdb.png)
 
+By prsessing enter we reach up to php8.1-tidy
+![image](https://user-images.githubusercontent.com/123716596/220521415-77792c27-bf02-49f9-861c-b6a3f64ef221.png)
+: PRESS Q to exit from it
 2. Scroll up and down by using the arrow keys to see all the options, including a short
 description for each module.
 3. For example, to find out what the module php8.1-tidy does, type:
+COMMAND: apt-cache show php8.1-tidy
+
+![image](https://user-images.githubusercontent.com/123716596/220521826-a6114e2c-b833-4cf5-b438-93dbd140b46d.png)
+4. To install the php8.1-tidy package after viewing its description, use the following
+command:
+COMMAND: sudo apt install php8.1-tidy
+![image](https://user-images.githubusercontent.com/123716596/220522104-3831e26f-77e9-4f2d-874e-276e6cc1d671.png)
+
+# STEP 5: Restart Apache
+For the changes to take effect, restart the Apache service by typing:
+COMMAND: sudo systemctl restart apache2
+If the command executes correctly, it returns no output.
+![image](https://user-images.githubusercontent.com/123716596/220522456-64d54224-f356-4530-9d37-b20314153cc5.png)
+
+# STEP 6: Test PHP Processing on Web Server
+To test the new LAMP installation, create a basic PHP script and place it in the web
+root directory located at /var/www/html/, then check if the script is accessible via an
+internet browser. The steps below explain the procedure for performing this test.
+1. Create a file in the web root directory by typing the following command:
+COMMAND: sudo nano /var/www/html/info.php
+
+![image](https://user-images.githubusercontent.com/123716596/220522675-b3428f1b-e402-4de9-934f-7f5056a50c60.png)
+2. Inside the file, type the PHP code:
+<?php
+phpinfo ();
+?>
+
+![image](https://user-images.githubusercontent.com/123716596/220522850-17bcab2d-d3a1-41fb-b648-3b0776e4499d.png)
+
+
+
 
 
 
