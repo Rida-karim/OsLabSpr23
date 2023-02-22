@@ -130,6 +130,30 @@ BROWSE: localhost/info.php
 The output should display the details of the LAMP stack, as seen in the image below:
 ![image](https://user-images.githubusercontent.com/123716596/220525309-85e1a38e-8bd5-4fc6-9312-a226a99fced2.png)
 
+#STEP 6: Installing Postfix
+
+1. Postfix is included in Ubuntu’s default repositories, so you can install it with APT.
+To begin, update your local apt package cache:
+COMMAND: sudo apt update
+
+2. Then install the postfix package with the following command. Note that here we
+pass the DEBIAN_PRIORITY=low environmental variable into this installation
+command. This will cause the installation process to prompt you to configure some
+additional options:
+COMMAND: sudo DEBIAN_PRIORITY=low apt install postfix
+![image](https://user-images.githubusercontent.com/123716596/220527064-717ffab9-0479-49fe-8869-7867166fb813.png)
+![image](https://user-images.githubusercontent.com/123716596/220527114-5bdf5f78-9723-4390-9a87-378aae2ae540.png)
+![image](https://user-images.githubusercontent.com/123716596/220527222-44e3209a-e599-47c3-a136-ddcbc1cbbc6b.png)
+![image](https://user-images.githubusercontent.com/123716596/220527504-3034affe-c927-46f2-b126-a554ef87f50b.png)
+![image](https://user-images.githubusercontent.com/123716596/220527543-f3ccdaf8-ed99-4202-b0d0-f9443c5bb6ff.png)
+![image](https://user-images.githubusercontent.com/123716596/220527875-2cc843cb-b11d-4cd3-81ae-16c066e4c648.png)
+CONTINUE ON INSTALLING
+![image](https://user-images.githubusercontent.com/123716596/220528090-e780bd98-9440-4651-b9e0-b3c727874a11.png)
+
+
+
+
+
 
 
 
