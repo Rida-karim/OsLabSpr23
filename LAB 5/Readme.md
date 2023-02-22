@@ -57,6 +57,34 @@ Install PHP by following the steps below.
 
 COMMAND: sudo apt install php libapache2-mod-php php-mysql -y
 
+![image](https://user-images.githubusercontent.com/123716596/220519026-9ee7e144-1c65-4b11-88bb-1de6ec9d85dd.png)
+
+2. Modify the way Apache serves files by opening the dir.conf file in a text editor with
+root privileges:
+
+COMMAND: sudo nano /etc/apache2/mods-enabled/dir.conf
+
+The configuration file looks like in the example below:
+By default, Apache first looks for an index.html file card.
+
+![image](https://user-images.githubusercontent.com/123716596/220519393-73b72b36-3244-4dcf-b93a-0e943e0977bc.png)
+![image](https://user-images.githubusercontent.com/123716596/220519512-03302818-74c2-4c16-89a9-f4204a1a329d.png)
+
+3. Edit the list so that the index.php file is in the first position:
+![image](https://user-images.githubusercontent.com/123716596/220519918-a8fde7be-59c5-4280-9a23-42e54225a266.png)
+
+4. Press CTRL + X to save and close the file. Press y and ENTER to confirm.
+
+# STEP 4: Install PHP Modules (Optional)
+If necessary, add more modules to improve the functionality of PHP. Search, view,
+and install various libraries and modules by following the procedure below.
+1. Get a list of available PHP modules with:
+
+COMMAND: apt-cache search php- | less
+
+
+
+
 
 
 
