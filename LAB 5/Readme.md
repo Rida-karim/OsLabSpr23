@@ -270,7 +270,19 @@ COMMAND: s-nail
 Press ENTER to display the message AND PRESS DOWN CURSOR:
 
 ![image](https://user-images.githubusercontent.com/123716596/220541242-7865ba6b-dd23-404a-8a66-50c7bc63cda2.png)
+![image](https://user-images.githubusercontent.com/123716596/220541863-b1750bbb-03d2-4e4b-86f2-5341e704ad2b.png)
+
 You can get back to the message list by typing h, and then ENTER:
+![image](https://user-images.githubusercontent.com/123716596/220542357-d22c4594-e2af-4e77-87a1-3a2880e4773e.png)
+
+Since this message isn’t very useful, you can delete it by pressing d, and then ENTER:
+d
+To get back to the terminal, type q and then ENTER:
+q
+![image](https://user-images.githubusercontent.com/123716596/220542494-7d4c60c0-943c-4d42-ae9c-5f6640bf53f3.png)
+
+
+
 
 
 
