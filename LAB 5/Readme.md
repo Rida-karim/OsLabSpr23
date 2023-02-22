@@ -325,8 +325,12 @@ COMMAND : s-nail
 ![image](https://user-images.githubusercontent.com/123716596/220543521-f8fcc886-5a0f-4036-b195-92b3c17cb0ab.png)
 From the email client, view your sent messages by typing:
 EDIT: file +sent
-You’ll see output like this:
+
 ![image](https://user-images.githubusercontent.com/123716596/220543733-193a455a-f4b4-4a09-8df2-ff810996b471.png)
+You’ll see output like this:
+![image](https://user-images.githubusercontent.com/123716596/220543915-463e2f53-7d3e-4d39-b1c2-1055355626fe.png)
+You can manage sent mail using the same commands you use for incoming mail.
+
 
 
 
