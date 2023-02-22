@@ -82,6 +82,11 @@ and install various libraries and modules by following the procedure below.
 
 COMMAND: apt-cache search php- | less
 
+![image](https://user-images.githubusercontent.com/123716596/220520425-0d47721d-bb9d-4c72-9c25-2c2afaf66bdb.png)
+
+2. Scroll up and down by using the arrow keys to see all the options, including a short
+description for each module.
+3. For example, to find out what the module php8.1-tidy does, type:
 
 
 
