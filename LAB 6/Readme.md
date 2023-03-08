@@ -1,5 +1,12 @@
-# LAB 6
+# LAB 6  INTER PROCESS COMMUNICATION
 
-# TASK 1:
+# TASK 1:  SHARED MEMORY
 ![Screenshot from 2023-03-08 10-21-33](https://user-images.githubusercontent.com/123716596/223626462-6d9cb67c-a918-4aba-b013-d810a8f3f684.png)
 
+# TASK 2: PIPES IN LINUX
+
+NAMED PIPES
+
+UN NAMED PIPES
+
+# TASK 3: 
