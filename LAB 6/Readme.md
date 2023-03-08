@@ -3,6 +3,14 @@
 # TASK 1:  SHARED MEMORY
 ![Screenshot from 2023-03-08 10-21-33](https://user-images.githubusercontent.com/123716596/223626462-6d9cb67c-a918-4aba-b013-d810a8f3f684.png)
 
+# size 2^18  262144
+![Screenshot from 2023-03-08 10-52-44](https://user-images.githubusercontent.com/123716596/223630803-99f7d18e-56b5-4d9a-bd2e-402f94592504.png)
+
+![Screenshot from 2023-03-08 10-53-17](https://user-images.githubusercontent.com/123716596/223630813-7208dffd-3502-485a-b8e8-572923baacd8.png)
+![Screenshot from 2023-03-08 10-53-45](https://user-images.githubusercontent.com/123716596/223630823-20d89f0f-eff5-4c29-847a-a0d4b81a5a70.png)
+
+![Screenshot from 2023-03-08 10-54-00](https://user-images.githubusercontent.com/123716596/223630827-602ee2fa-b3a6-4a18-9c2f-c0a74f2aeaf2.png)
+
 # TASK 2: PIPES IN LINUX
 
 NAMED PIPES
