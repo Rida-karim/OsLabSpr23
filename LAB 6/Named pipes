@@ -1,0 +1,45 @@
+#include <errno.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+
+/**
+ * @brief      Main function, entry point to the program
+ * @param[in]  argc  The count of arguments
+ * @param      argv  The arguments array
+ * @return     EXIT_SUCCESS on safe exit
+ */
+int main(int argc, char *argv[]) {
+  int pipefd[2];
+  pid_t cpid;
+  if (pipe(pipefd) == -1) exit(EXIT_FAILURE);
+  cpid = fork();
+  if (cpid == -1) exit(EXIT_FAILURE);
+
+
+  if (cpid == 0) { /* Child the CONSUMER reads from pipe */
+    char msgRcv[15];  // Recieve buffer.
+    // We know 15 Bytes will be send, else it should be dynamic
+    close(pipefd[1]); /* Close unused write end */
+    printf("I am %d child of parent %d\n", getpid(), getppid());
+    printf("I will attempt to read 15 bytes.\n");
+    read(pipefd[0], msgRcv, 15); //We know 15 bytes will be send.
+    //Not always the case. A little cheating in our toy example.
+    printf("MSG GOT: %s\n" msgRcv);
+    close(pipefd[0]);
+    exit(EXIT_SUCCESS);
+
+
+  } else {/* Parent writes HelloWorldHello to pipe */
+    close(pipefd[0]); /* Close unused read end */
+    printf("I AM %d PARENT OF CHILD %d", getpid(), cpid);
+    write(pipefd[1], 'HelloWorldHello', 15);  // 15 bytes in our string
+    close(pipefd[1]); // Reader will see EOF 
+    wait(NULL); // Wait for child
+    exit(EXIT_SUCCESS);
+  }
+}
