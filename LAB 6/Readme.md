@@ -1,6 +1,11 @@
 # LAB 6  INTER PROCESS COMMUNICATION
 
 # TASK 1:  SHARED MEMORY
+PRODUCER.c
+![image](https://user-images.githubusercontent.com/123716596/224354589-ac415913-bf04-4786-8d76-0db32d4e06b4.png)
+CONSUMER.c
+![image](https://user-images.githubusercontent.com/123716596/224354796-b8132564-9914-4f2e-8c18-66af9f93af18.png)
+
 ![Screenshot from 2023-03-08 10-21-33](https://user-images.githubusercontent.com/123716596/223626462-6d9cb67c-a918-4aba-b013-d810a8f3f684.png)
 
 # size 2^18  262144
