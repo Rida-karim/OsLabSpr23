@@ -1,0 +1,10 @@
+# TRUNCATE COMMAND:
+![image](https://user-images.githubusercontent.com/123716596/224433122-136452f3-03a7-432f-b377-302a998d6e0d.png)
+![image](https://user-images.githubusercontent.com/123716596/224433412-a6121f57-24b7-45ee-811c-e35b297a8ebd.png)
+![image](https://user-images.githubusercontent.com/123716596/224433635-79ddd5b5-7091-41c4-9fd2-40101cec81dc.png)
+![image](https://user-images.githubusercontent.com/123716596/224433886-a2985a4b-eb2a-4b91-b3f6-77d227f2e83b.png)
+![image](https://user-images.githubusercontent.com/123716596/224433926-85b035d9-6013-4dc6-950e-61500164210c.png)
+![image](https://user-images.githubusercontent.com/123716596/224434019-406fdc87-c789-483b-8dab-0c996e6ca492.png)
+![image](https://user-images.githubusercontent.com/123716596/224434201-c742884a-a98c-4b1e-b82e-d32035dccf2c.png)
+![image](https://user-images.githubusercontent.com/123716596/224434503-d8d34dca-24f3-4a6d-af0c-4d620f65b031.png)
+![image](https://user-images.githubusercontent.com/123716596/224434553-fa7f06cb-922a-4626-830b-23b676d910ef.png)
