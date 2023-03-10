@@ -1,4 +1,3 @@
- clear
 echo enter the size of array...
 read s
 echo enter the elements of array
