@@ -9,6 +9,8 @@
 ![image](https://user-images.githubusercontent.com/123716596/224414264-7852ce6f-b648-4611-9d13-651e517a1c21.png)
 ![image](https://user-images.githubusercontent.com/123716596/224414658-bf0d2848-c5b4-4ab6-a150-9309fa6ae156.png)
 # ZOMBIE PROCESS
+![image](https://user-images.githubusercontent.com/123716596/224418590-b7a74b00-0a4c-4102-8e5f-8c87290550ed.png)
+
 ![image](https://user-images.githubusercontent.com/123716596/224416987-f32ebf83-1d28-473a-9702-61067840ec3d.png)
 
 ![image](https://user-images.githubusercontent.com/123716596/224416665-d5c4ab8f-be5d-4b4c-a68b-318d5552f435.png)
