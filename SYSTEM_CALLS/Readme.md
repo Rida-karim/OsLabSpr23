@@ -14,7 +14,9 @@
 ![image](https://user-images.githubusercontent.com/123716596/224416665-d5c4ab8f-be5d-4b4c-a68b-318d5552f435.png)
 ![image](https://user-images.githubusercontent.com/123716596/224416857-9551a0f5-3340-4bf1-8eee-84c451bd8ca2.png)
 
-# OTHER PROCESSE
+# OTHER PROCESSES
+![image](https://user-images.githubusercontent.com/123716596/224417798-76404b51-0f88-47f8-87f1-820b685b89a5.png)
+
 
 
 
