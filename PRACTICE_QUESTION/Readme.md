@@ -11,5 +11,9 @@
 ![image](https://user-images.githubusercontent.com/123716596/224378078-23a3a9df-6730-409b-abcd-b1e7e05ac8bc.png)
 ![image](https://user-images.githubusercontent.com/123716596/224378373-1e4cb25d-3e4b-4b06-bd78-5f408561ed60.png)
 
+# PATTERN 1
+![image](https://user-images.githubusercontent.com/123716596/224380355-87d12f4f-a8ac-4deb-b0df-beea2b81253b.png)
+![image](https://user-images.githubusercontent.com/123716596/224380601-65d441dc-c0e2-409d-81dd-ed5b8f73c8e0.png)
+
 
 
