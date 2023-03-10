@@ -35,5 +35,8 @@
 ![image](https://user-images.githubusercontent.com/123716596/224384136-b4a40709-6a89-4af3-9d6a-129a84b8e22a.png)
 ![image](https://user-images.githubusercontent.com/123716596/224384259-a8aa32a9-6c8c-49fc-9b25-d9193a3eccef.png)
 
+# Find Maximum number in Array
+![image](https://user-images.githubusercontent.com/123716596/224391379-7fe8531e-2463-4cf6-9b97-ed371e67ca61.png)
+![image](https://user-images.githubusercontent.com/123716596/224391507-54328e40-0a59-4789-afbe-3d1bc4e7e42a.png)
 
 
