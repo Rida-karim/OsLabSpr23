@@ -1,6 +1,7 @@
 # BASICS TO LEARN 
 ![image](https://user-images.githubusercontent.com/123716596/224421744-25f9f747-151c-4e31-971d-d3c8391516b1.png)
 ![image](https://user-images.githubusercontent.com/123716596/224422018-bf1bf13c-6cf6-4ba1-8d01-0d6a6c08151e.png)
+![image](https://user-images.githubusercontent.com/123716596/224423576-b5cdae62-9f7c-40e9-99ff-5016aa1621e4.png)
 
 
 ![image](https://user-images.githubusercontent.com/123716596/224399207-42e8a3b2-16a3-49fa-bc53-8cce8dd0becc.png)
