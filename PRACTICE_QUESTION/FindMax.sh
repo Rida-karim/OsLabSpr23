@@ -20,4 +20,4 @@ do
   i=$((i + 1))  #increment i by 1
 done
 
-echo $max
+echo "The Maximum Number is: $max"
