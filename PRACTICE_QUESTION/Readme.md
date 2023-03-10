@@ -1,6 +1,6 @@
 # REVERSE ARRAY
-![image](https://user-images.githubusercontent.com/123716596/224362231-7ebd4cc5-a213-48f6-8f16-e4b09a618a15.png)
-![image](https://user-images.githubusercontent.com/123716596/224362567-214f9fb0-8602-45c2-9bbb-16821b54c722.png)
-![image](https://user-images.githubusercontent.com/123716596/224362455-6a086afc-2051-4f17-bf87-57b9c1485e85.png)
+![image](https://user-images.githubusercontent.com/123716596/224369595-b6cbaf7b-a280-40ea-a968-d39708757cb1.png)
+![image](https://user-images.githubusercontent.com/123716596/224369326-ecd19eae-f7b8-48b7-a430-0727d5795b92.png)
+
 
 # REVERSE STRING
