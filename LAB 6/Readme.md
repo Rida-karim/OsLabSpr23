@@ -22,6 +22,11 @@ NAMED PIPES
 
 UN NAMED PIPES
 
+![image](https://user-images.githubusercontent.com/123716596/224562302-c41caf6f-7ed0-4f03-9ebf-62aedf93b77f.png)
+![image](https://user-images.githubusercontent.com/123716596/224562549-33320635-d2e1-4a63-af29-91a903c2dba7.png)
+![image](https://user-images.githubusercontent.com/123716596/224562695-240132a8-0746-4fc6-b70a-55024247a416.png)
+
+
 # TASK 3: 
 
 Write 2 C programs named prod.c and cons.c. 
