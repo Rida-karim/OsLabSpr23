@@ -35,3 +35,8 @@ Write 2 C programs named prod.c and cons.c.
 3. These 2 cons.c programs will in turn create 2 more cons.c prog and again assign the left half of their assigned memory to one and right half to the other. This must continue to happen until the cons.c prog receives half with only 16 numbers. It must then sort these 16 numbers and inform its parent.
 4. Parent upon confirmation from both children must sort its half (use merge sort technique)
 5. The prod.c will finally receive answer from its 2 cons.c programs sorts them and prints the sorted array.
+
+![image](https://user-images.githubusercontent.com/123716596/224562925-87bad2ea-7a0f-4f9c-8334-aac51764f769.png)
+![image](https://user-images.githubusercontent.com/123716596/224563050-7edccabf-8d5c-4263-a887-cc6d4cf1d480.png)
+
+
