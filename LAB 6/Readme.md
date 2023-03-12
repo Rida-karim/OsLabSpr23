@@ -23,3 +23,10 @@ NAMED PIPES
 UN NAMED PIPES
 
 # TASK 3: 
+
+Write 2 C programs named prod.c and cons.c. 
+1. prod.c will create a shared memory and generate 2^18 random numbers in it. (You must decide the size of the shared memory now.)
+2. prod.c will start 2 cons.c prog and assign left half of the shared memory to one and right side to the other. (You must use some other IPC like message passing or pipes to communicate this.)
+3. These 2 cons.c programs will in turn create 2 more cons.c prog and again assign the left half of their assigned memory to one and right half to the other. This must continue to happen until the cons.c prog receives half with only 16 numbers. It must then sort these 16 numbers and inform its parent.
+4. Parent upon confirmation from both children must sort its half (use merge sort technique)
+5. The prod.c will finally receive answer from its 2 cons.c programs sorts them and prints the sorted array.
