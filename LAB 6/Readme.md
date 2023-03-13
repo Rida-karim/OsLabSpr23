@@ -29,6 +29,12 @@ UN NAMED PIPES
 
 # TASK 3: 
 
+
+
+![image](https://user-images.githubusercontent.com/123716596/224562925-87bad2ea-7a0f-4f9c-8334-aac51764f769.png)
+![image](https://user-images.githubusercontent.com/123716596/224563050-7edccabf-8d5c-4263-a887-cc6d4cf1d480.png)
+
+# Quostionarie:
 Write 2 C programs named prod.c and cons.c. 
 1. prod.c will create a shared memory and generate 2^18 random numbers in it. (You must decide the size of the shared memory now.)
 2. prod.c will start 2 cons.c prog and assign left half of the shared memory to one and right side to the other. (You must use some other IPC like message passing or pipes to communicate this.)
@@ -36,7 +42,18 @@ Write 2 C programs named prod.c and cons.c.
 4. Parent upon confirmation from both children must sort its half (use merge sort technique)
 5. The prod.c will finally receive answer from its 2 cons.c programs sorts them and prints the sorted array.
 
-![image](https://user-images.githubusercontent.com/123716596/224562925-87bad2ea-7a0f-4f9c-8334-aac51764f769.png)
-![image](https://user-images.githubusercontent.com/123716596/224563050-7edccabf-8d5c-4263-a887-cc6d4cf1d480.png)
+![image](https://user-images.githubusercontent.com/123716596/224720525-6c401414-45f3-404c-a1b6-b32c5e3bb4cc.png)
+![image](https://user-images.githubusercontent.com/123716596/224720775-4cc8bb1a-c19d-4792-880f-12326e50a638.png)
+![image](https://user-images.githubusercontent.com/123716596/224720990-64a5d07d-ce0a-4dda-9f44-047f86d13f65.png)
+![image](https://user-images.githubusercontent.com/123716596/224721230-6e7ae504-897f-4bf8-880f-fd4a0bdfbacf.png)
+![image](https://user-images.githubusercontent.com/123716596/224721356-21b57973-49a8-450c-9b22-1a57b2feb5cd.png)
+![image](https://user-images.githubusercontent.com/123716596/224721753-28fd0bc6-9867-41e0-ae87-a806839d4405.png)
+![image](https://user-images.githubusercontent.com/123716596/224721856-de2831cc-f283-4a19-a9d4-161ea88b4bfc.png)
+
+
+
+
+
+
 
 
