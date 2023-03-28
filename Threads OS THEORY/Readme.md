@@ -9,3 +9,11 @@
 # Race Condition in Threads
 ![image](https://user-images.githubusercontent.com/123716596/228232330-71129cd3-9489-43b3-877f-4c3dc89fefa5.png)
 ![image](https://user-images.githubusercontent.com/123716596/228232464-c8dd9195-eee3-46e6-b981-d3c2447b0bf7.png)
+
+# Critical Section Condition in Threads
+![image](https://user-images.githubusercontent.com/123716596/228233915-72ce84dd-d375-4f73-9e2c-3f1f4b5d9742.png)
+![image](https://user-images.githubusercontent.com/123716596/228234480-7d2fff37-6a08-4261-8d40-634a5f216178.png)
+![image](https://user-images.githubusercontent.com/123716596/228235635-be1d8cb1-1386-4434-b15f-558af4340368.png)
+![image](https://user-images.githubusercontent.com/123716596/228235721-64e50554-7dac-406d-8b87-247a7b60b669.png)
+![image](https://user-images.githubusercontent.com/123716596/228238116-ac2be31f-8b14-46c6-9786-cdf56b59fa19.png)
+
