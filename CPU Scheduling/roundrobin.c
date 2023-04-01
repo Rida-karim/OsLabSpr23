@@ -1,8 +1,8 @@
-    #include<stdio.h>  
+#include<stdio.h>  
      
       
-    int main()  
-    {  
+int main()  
+{  
         // initlialize the variable name  
         int i, NOP, sum=0,count=0, y, quant, wt=0, tat=0, at[10], bt[10], temp[10];  
         float avg_wt, avg_tat;  
@@ -27,17 +27,17 @@
     printf("\n Process No \t\t Burst Time \t\t TAT \t\t Waiting Time ");  
     for(sum=0, i = 0; y!=0; )  
     {  
-    if(temp[i] <= quant && temp[i] > 0) // define the conditions   
-    {  
+       if(temp[i] <= quant && temp[i] > 0) // define the conditions   
+       {  
         sum = sum + temp[i];  
         temp[i] = 0;  
         count=1;  
-        }     
-        else if(temp[i] > 0)  
+        }else if(temp[i] > 0)  
         {  
             temp[i] = temp[i] - quant;  
             sum = sum + quant;    
         }  
+        
         if(temp[i]==0 && count==1)  
         {  
             y--; //decrement the process no.  
@@ -46,15 +46,14 @@
             tat = tat+sum-at[i];  
             count =0;     
         }  
+        
         if(i==NOP-1)  
         {  
             i=0;  
-        }  
-        else if(at[i+1]<=sum)  
+        }else if(at[i+1]<=sum)  
         {  
             i++;  
-        }  
-        else  
+        }else  
         {  
             i=0;  
         }  
@@ -65,4 +64,4 @@
     printf("\n Average Turn Around Time: \t%f", avg_wt);  
     printf("\n Average Waiting Time: \t%f", avg_tat);  
   
-    }  
+}  
