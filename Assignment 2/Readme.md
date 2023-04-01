@@ -67,6 +67,6 @@ with critical cases taking precedence over urgent cases, and urgent cases taking
 over non-urgent cases.
 ![image](https://user-images.githubusercontent.com/123716596/229280880-09d2e43e-7c49-434c-bb4d-35b7131cf4a7.png)
 
-![image](https://user-images.githubusercontent.com/123716596/229280833-d718fa00-bd22-46fe-a5e1-274b664f34aa.png)
+
 
 ![image](https://user-images.githubusercontent.com/123716596/229280773-31d73b50-1c40-40bb-85b2-8e3b91180231.png)
