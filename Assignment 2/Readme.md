@@ -57,8 +57,9 @@ manufactured in the shortest possible time.
 iii. Imagine you are the manager of a pizza restaurant with a single oven. The oven can only bake
 one pizza at a time. Describe how you could use the SJF non-preemptive scheduling algorithm
 to ensure that the pizzas are baked in the shortest possible time. Total number of pizzas (idA*5).
+![image](https://user-images.githubusercontent.com/123716596/229281017-29a54f7c-8a1e-47cf-8417-080575d9171b.png)
+
 iv. A hospital is using a priority scheduling algorithm to manage its emergency department.
-![image](https://user-images.githubusercontent.com/123716596/229280802-817d2937-210c-46ec-8a1c-9efbed8f0c9e.png)
 Patients are assigned a priority level based on the severity of their condition, with higher
 priority levels indicating more urgent cases. The hospital has three levels of priority: critical
 (idA), urgent (idB), and non-urgent (idA+idB). Patients are seen by a doctor in order of priority,
