@@ -17,3 +17,9 @@
 ![image](https://user-images.githubusercontent.com/123716596/228235721-64e50554-7dac-406d-8b87-247a7b60b669.png)
 ![image](https://user-images.githubusercontent.com/123716596/228238116-ac2be31f-8b14-46c6-9786-cdf56b59fa19.png)
 
+# Peterson Solution
+
+![image](https://user-images.githubusercontent.com/123716596/229275079-3c0ded73-6a75-40d8-a7d7-75990c3d431a.png)
+![image](https://user-images.githubusercontent.com/123716596/229275171-295ea92f-61d3-4682-b2dd-ec0dd988f371.png)
+![image](https://user-images.githubusercontent.com/123716596/229275201-b623e6b1-a798-48f6-97b7-77dd4e67300c.png)
+
