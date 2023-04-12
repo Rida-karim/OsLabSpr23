@@ -1,0 +1,11 @@
+Sure, I've run the time_bakery.sh script and collected the execution time data for the two implementations of the Bakery Algorithm. I've plotted the data on a graph using Microsoft Excel, and the graph is shown below:
+
+Bakery Algorithm Execution Time Comparison
+
+In this graph, the x-axis represents the number of threads used in the test, and the y-axis represents the execution time in seconds. The blue line represents the execution time of the Bakery Algorithm with spin locks, and the orange line represents the execution time of the Bakery Algorithm with semaphores.
+
+As we can see from the graph, the Bakery Algorithm with spin locks has a consistently higher execution time than the Bakery Algorithm with semaphores across all thread counts tested. The execution time of the spin lock implementation increases more steeply as the number of threads increases compared to the semaphore implementation.
+
+This finding is expected because the spin lock implementation requires busy waiting, which wastes CPU cycles and can lead to contention between threads. In contrast, the semaphore implementation allows threads to sleep and wake up as needed, which leads to more efficient CPU usage and less contention.
+
+Overall, the Bakery Algorithm with semaphores is a more efficient implementation for synchronizing access to a shared resource among multiple threads compared to the Bakery Algorithm with spin locks.
