@@ -1,5 +1,7 @@
 # Buffer Bounded Problem:
 ![image](https://user-images.githubusercontent.com/123716596/232092418-7a03e4e7-e37c-4f2a-8fdf-7fbc0384f06f.png)
+![image](https://user-images.githubusercontent.com/123716596/232093558-2eb77c99-f0c6-419f-9a03-76bff7a1fbb4.png)
+![image](https://user-images.githubusercontent.com/123716596/232093893-99119d6d-5701-4326-a6ee-57d3f08656ae.png)
 
 ![image](https://user-images.githubusercontent.com/123716596/232083663-5f49c538-2fe2-49a8-b068-648f3d1093ba.png)
 
