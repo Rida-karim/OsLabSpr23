@@ -5,3 +5,8 @@
 # Readers-Writers Problem
 
 ![image](https://user-images.githubusercontent.com/123716596/232085129-d8db3842-58e5-43eb-ae9f-abb7b905002b.png)
+
+
+# Dining Philosphers problem
+
+![image](https://user-images.githubusercontent.com/123716596/232089288-92e51672-23bb-49ac-bbbe-ce3c081f157b.png)
