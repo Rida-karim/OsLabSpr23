@@ -16,5 +16,8 @@
 
 
 # Dining Philosphers problem
+![image](https://user-images.githubusercontent.com/123716596/232095802-21a390aa-2891-4392-995e-5fbe7b67e610.png)
+
+![image](https://user-images.githubusercontent.com/123716596/232095472-2ee9a845-4928-4feb-8e78-aaddf8c8e76b.png)
 
 ![image](https://user-images.githubusercontent.com/123716596/232089288-92e51672-23bb-49ac-bbbe-ce3c081f157b.png)
