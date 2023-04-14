@@ -1,4 +1,9 @@
 # Buffer Bounded Problem:
+![image](https://user-images.githubusercontent.com/123716596/232106916-34bb3126-86c1-4851-bf6e-82991cdbbda0.png)
+![image](https://user-images.githubusercontent.com/123716596/232107017-d8da10fd-0abe-43f6-b8fe-edc5fff21b89.png)
+![image](https://user-images.githubusercontent.com/123716596/232107152-d9767853-c2fb-4eaf-bd1e-6c3a63dcc333.png)
+![image](https://user-images.githubusercontent.com/123716596/232107296-f562eda9-fc8a-4c06-ad3e-60397f2efc53.png)
+
 ![image](https://user-images.githubusercontent.com/123716596/232092418-7a03e4e7-e37c-4f2a-8fdf-7fbc0384f06f.png)
 ![image](https://user-images.githubusercontent.com/123716596/232093558-2eb77c99-f0c6-419f-9a03-76bff7a1fbb4.png)
 ![image](https://user-images.githubusercontent.com/123716596/232093893-99119d6d-5701-4326-a6ee-57d3f08656ae.png)
