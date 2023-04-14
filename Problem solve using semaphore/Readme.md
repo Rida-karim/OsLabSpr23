@@ -21,3 +21,12 @@
 ![image](https://user-images.githubusercontent.com/123716596/232095472-2ee9a845-4928-4feb-8e78-aaddf8c8e76b.png)
 
 ![image](https://user-images.githubusercontent.com/123716596/232089288-92e51672-23bb-49ac-bbbe-ce3c081f157b.png)
+
+
+# DIFFICULTIES OCCURS WHILE SOLVING PROBLEM
+![image](https://user-images.githubusercontent.com/123716596/232098223-744071be-ea5d-4f69-ba0d-22388995be64.png)
+![image](https://user-images.githubusercontent.com/123716596/232098844-731c6aca-ea5e-44cf-8771-7cd67dfa4629.png)
+![image](https://user-images.githubusercontent.com/123716596/232100201-4b53d31e-7b27-4715-9f48-7e5f14fc4e2b.png)
+![image](https://user-images.githubusercontent.com/123716596/232100442-35b46182-363d-4a56-b52b-f45019acdbc2.png)
+![image](https://user-images.githubusercontent.com/123716596/232102387-6cd9d8f2-c37a-4e2c-8bca-75866a83d543.png)
+![image](https://user-images.githubusercontent.com/123716596/232102916-15d2c041-ad3c-47b2-a572-88b4f2b11cf2.png)
