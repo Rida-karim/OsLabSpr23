@@ -5,6 +5,7 @@
 # Readers-Writers Problem
 
 ![image](https://user-images.githubusercontent.com/123716596/232091696-be2b485d-f820-42a5-9c73-9d413a1b6279.png)
+![image](https://user-images.githubusercontent.com/123716596/232092048-c34eb4c2-28e3-4991-bc3e-7947b49502ad.png)
 
 ![image](https://user-images.githubusercontent.com/123716596/232091043-86fc9ee3-aaff-474a-813b-3c5fd15abf2b.png)
 
