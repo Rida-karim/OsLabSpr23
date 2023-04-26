@@ -28,10 +28,10 @@ In summary, Linux hardening is essential for maintaining a secure and reliable s
 
 # TASK 3:
 # For any 3 tools describe in detail in you own words 
-# 3. what they do?
-# 4. How to affectively use them?
-# 5. Any short-comings they might have?
-# 6. Alternatives/Competitors they have?
+ 3. what they do?
+ 4. How to affectively use them?
+ 5. Any short-comings they might have?
+ 6. Alternatives/Competitors they have?
 
 # JSheilder LINUX HARDENING TOOL
     What does jShielder do?
@@ -59,4 +59,15 @@ In summary, Linux hardening is essential for maintaining a secure and reliable s
     Alternatives/Competitors to Lynis?
     There are several other Linux hardening and security auditing tools available, such as jShielder, CIS-CAT, and Bastille. These tools provide similar functionality to Lynis and may have additional features or specific focus on certain security aspects. Users should evaluate the different options available and choose the tool that best meets their specific needs and use cases.
 
-# 
+# OpenSCAP LINUX HARDENING TOOL
+ 3. what they do?
+OpenSCAP provides several security features and capabilities. It includes a library of security policies, configuration profiles, and vulnerability scanners that can be used to assess and remediate security vulnerabilities. It also provides automated compliance checks against industry-standard security benchmarks such as the Common Vulnerability Scoring System (CVSS), Common Configuration Enumeration (CCE), and Security Content Automation Protocol (SCAP).
+
+ 4. How to affectively use them?
+To effectively use OpenSCAP, you should first install it on your Linux system and configure it according to your security needs. Once installed, you can use it to scan and assess the security posture of your Linux systems. The tool generates reports that identify security vulnerabilities and non-compliant configurations, and provides remediation guidance to fix these issues.
+
+ 5. Any short-comings they might have?
+One potential shortcoming of OpenSCAP is that it can be complex to configure and use, particularly for inexperienced users. The tool also requires a certain level of technical expertise to understand and interpret the results of security scans and reports.
+
+ 6. Alternatives/Competitors they have?
+Alternatives or competitors to OpenSCAP include tools such as Lynis, Bastille, and CIS-CAT, as well as commercial solutions such as Tenable Nessus and Qualys Vulnerability Management. These tools offer similar features and functionality, and choosing one over the other may depend on your specific security needs, system environment, and personal preference.
