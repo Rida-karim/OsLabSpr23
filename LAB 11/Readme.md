@@ -1,5 +1,5 @@
 # LAB 11 Linux Hardening
-
+# TASK 1 Complete the Lab Manual provide proof in form of screenshots
 ![image](https://user-images.githubusercontent.com/123716596/234595553-e4470180-a494-46a1-b646-4ad6b0c68403.png)
 ![image](https://user-images.githubusercontent.com/123716596/234595730-6341972e-c4a2-4991-88f6-91f9661752b4.png)
 ![image](https://user-images.githubusercontent.com/123716596/234595899-e7a63cd3-96cd-4767-bf47-887316df66b3.png)
@@ -16,3 +16,19 @@
 ![image](https://user-images.githubusercontent.com/123716596/234616568-318c1fbe-aacc-4e1f-b68d-f612ec1e4fb2.png)
 ![image](https://user-images.githubusercontent.com/123716596/234616965-b8fa274d-0642-4f09-b3b7-67583a503d81.png)
 ![image](https://user-images.githubusercontent.com/123716596/234617210-6d2e8b89-27fa-47f0-bd1b-1054448468e1.png)
+
+# TASK 2  Summarize what the manual was about.
+Hardening a Linux system involves implementing a series of security measures to reduce the system's vulnerability to attacks. These measures may include disabling unnecessary services, configuring firewall rules, implementing access controls, and applying security patches and updates.
+
+By hardening your Linux system, you can reduce the risk of unauthorized access, data breaches, and system compromises. This can help protect your sensitive data, prevent system downtime, and maintain the confidentiality, integrity, and availability of your system.
+
+Furthermore, many organizations are required to comply with various regulatory standards, such as the Payment Card Industry Data Security Standard (PCI DSS) or the Health Insurance Portability and Accountability Act (HIPAA). These standards often require the implementation of specific security controls, including system hardening.
+
+In summary, Linux hardening is essential for maintaining a secure and reliable system and complying with regulatory requirements. It helps prevent unauthorized access, data breaches, and system compromises, protecting your sensitive data and maintaining the confidentiality, integrity, and availability of your system.
+
+# TASK 3:
+# For any 3 tools describe in detail in you own words 
+# 3. what they do?
+# 4. How to affectively use them?
+# 5. Any short-comings they might have?
+# 6. Alternatives/Competitors they have?
