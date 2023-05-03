@@ -9,3 +9,11 @@
 
 OUTPUT:
 ![image](https://user-images.githubusercontent.com/123716596/236031596-485d5ebe-a38d-4a5a-9906-33d5902e20bc.png)
+
+# cons2.c
+![image](https://user-images.githubusercontent.com/123716596/236038699-5b594612-8eab-4664-b26d-13b6ed9b7ec4.png)
+![image](https://user-images.githubusercontent.com/123716596/236038851-006c7131-29e0-4686-a5df-4d0930508e7d.png)
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/123716596/236040277-ee583f1f-579c-4384-bf89-7d1ba6ed0af6.png)
+
