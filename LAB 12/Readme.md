@@ -7,7 +7,8 @@
 ![image](https://user-images.githubusercontent.com/123716596/236035248-91ec4962-8b61-4b13-99e2-c11433d39bd2.png)
 ![image](https://user-images.githubusercontent.com/123716596/236035331-960942bb-f20c-45b0-9fb8-b89ef8f97238.png)
 
-OUTPUT:
+OUTPUT:  
+# gcc cons1.c -o cons1 -fopenmp
 ![image](https://user-images.githubusercontent.com/123716596/236031596-485d5ebe-a38d-4a5a-9906-33d5902e20bc.png)
 
 # cons2.c
