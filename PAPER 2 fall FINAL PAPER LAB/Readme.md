@@ -34,4 +34,5 @@
 # Q4:
 ![image](https://user-images.githubusercontent.com/123716596/236835966-6d441bce-1025-461c-931d-f769b86bccb7.png)
 ![image](https://user-images.githubusercontent.com/123716596/236836175-1054de8a-c6dc-49ec-a1fe-69d6db35f49f.png)
+![image](https://user-images.githubusercontent.com/123716596/236836576-c73edcfc-bee7-4816-8c6f-178776f8abbe.png)
 
