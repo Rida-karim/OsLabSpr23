@@ -16,7 +16,7 @@
 # Q2 a:
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/6bfb46c8-c3c3-420b-b9b9-fe0ab784d612)
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/87deaffb-67cc-439d-bc70-2412999646a7)
-![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/30c1fe6d-6987-4500-b892-d7a9b370b56d)
+
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/acf682a5-85e9-49cd-9597-d4b46ac632a4)
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/6b9cb65c-b637-4e64-8d0d-d27046b0e428)
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/e7384a2e-b113-45c2-a1fb-18fe5a758a1c)
