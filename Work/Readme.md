@@ -37,3 +37,47 @@
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/c203950a-252e-4eba-a82e-8e8196fc6bc9)
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/bad61714-048d-4422-8919-258477dbd146)
 ![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/26dde7fd-43eb-4c90-ba75-603b877bc520)
+
+# Q2 e:
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/73556ea7-650d-4a97-8ceb-dfcd0e2cc62e)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/f3e97f9e-c0cc-42eb-9446-f34df7144144)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/b787e1cc-72ef-458a-b535-607af4bfc142)
+
+# Q3 b:
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/05258861-d390-42f5-a099-bf79c72c70ce)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/aed24680-5c78-4aac-babb-e5a7ee53a579)
+
+# Q4 a:
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/5cdbb4a8-4a2e-48fd-8cab-11eccb00ecbe)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/f37fff85-bc40-4830-8912-e116b1e973a7)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/f03e01dc-bb98-4892-b4ae-214cd8195eaf)
+# 4 a 3
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/b522b253-8ffb-447d-b1bb-9ce8d93f8ada)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/7ae963a7-8709-472f-be60-0c103cf3c86c)
+
+# 4 a 4
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/c8e32cd1-a84e-451c-93d8-0565c9000091)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/f34df06a-ba56-4539-88a1-2bfb3cf2e428)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/4b518097-28f9-4d33-bf43-4440c061c3b3)
+
+# Q4 b:
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/6104471b-d821-49d7-a280-55023994c75f)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/cc3ad6fe-218e-4d74-a5f5-7243cef430cd)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/525146ec-2f2f-4519-bd74-a19581a5c723)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/75723221-3f5b-4049-b00d-8022dbabfe8b)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/fdc8cf06-2d01-48e1-a6cf-500ae6fe7c35)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/8c5aa995-9d5f-4a3d-84f6-3d24ef5ba231)
+
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/d526108c-758a-4d9a-bed7-5e3a405484e6)
+
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/6319bbd9-6a91-40af-9a1e-5659704d7799)
+
+
+# Q4 d
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/e270a0aa-a04f-41b4-828c-647b71595426)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/67293ad8-51af-410e-9b27-83f08031baeb)
+![image](https://github.com/Rida-karim/OsLabSpr23/assets/123716596/1826ba18-4186-40db-9fb8-c401c642958d)
+
+
+
+
